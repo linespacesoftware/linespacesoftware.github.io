@@ -623,8 +623,15 @@ section {
 
 .section-title p {
   margin: 15px auto 0 auto;
+  text-align: center;
   font-weight: 600;
 }
+
+.section-about-us p {
+  margin: 15px auto 0 auto;
+  text-align: center;
+}
+
 
 @media (min-width: 1024px) {
   .section-title p {
