@@ -571,9 +571,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Domain Section
+# Hero Services Section
 --------------------------------------------------------------*/
-#hero-domain {
+#hero-services {
   width: 100%;
   height: 75vh;
   /* background: url("../img/hero2-bg.webp") top left; */
@@ -581,7 +581,7 @@ h6 {
   position: relative;
 }
 
-#hero-domain:before {
+#hero-services:before {
   content: "";
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -591,11 +591,11 @@ h6 {
   right: 0;
 }
 
-#hero-domain .container {
+#hero-services .container {
   position: relative;
 }
 
-#hero-domain h1 {
+#hero-services h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -604,18 +604,18 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero-domain h1 span {
+#hero-services h1 span {
   color: #106eea;
 }
 
-#hero-domain h2 {
+#hero-services h2 {
   color: #555555;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
 }
 
-#hero-domain .btn-get-started {
+#hero-services .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -629,11 +629,11 @@ h6 {
   background: #106eea;
 }
 
-#hero-domain .btn-get-started:hover {
+#hero-services .btn-get-started:hover {
   background: #247cf0;
 }
 
-#hero-domain .btn-watch-video {
+#hero-services .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -643,7 +643,7 @@ h6 {
   align-items: center;
 }
 
-#hero-domain .btn-watch-video i {
+#hero-services .btn-watch-video i {
   color: #106eea;
   font-size: 32px;
   transition: 0.3s;
@@ -651,44 +651,44 @@ h6 {
   margin-right: 8px;
 }
 
-#hero-domain .btn-watch-video:hover {
+#hero-services .btn-watch-video:hover {
   color: #106eea;
 }
 
-#hero-domain .btn-watch-video:hover i {
+#hero-services .btn-watch-video:hover i {
   color: #3b8af2;
 }
 
 @media (min-width: 1024px) {
-  #hero-domain {
+  #hero-services {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero-domain {
+  #hero-services {
     height: 100vh;
   }
 
-  #hero-domain h1 {
+  #hero-services h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero-domain h2 {
+  #hero-services h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero-domain .btn-get-started,
-  #hero-domain .btn-watch-video {
+  #hero-services .btn-get-started,
+  #hero-services .btn-watch-video {
     font-size: 13px;
   }
 }
 
 @media (max-height: 500px) {
-  #hero-domain {
+  #hero-services {
     height: 120vh;
   }
 }
